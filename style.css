@@ -1,0 +1,118 @@
+*{
+    border: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+.navbar img{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.line{
+    border-left: 1px solid #ffff;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: -10px;
+    
+}
+
+.list-item{
+    color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+   margin-right: 80px;
+   margin-top: 20px;
+  
+}
+
+.list-item:hover{
+    cursor: pointer;
+}
+
+.button-small{
+    border: none;
+    background-color: #BA0CC5;
+    color: #ffff;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 50px;
+    padding: 8px 23px;
+    border-radius: 5px;
+
+}
+
+.button-small:hover{
+    color: #0D0D0D;
+    cursor: pointer;
+
+}
+
+.hero{
+    background-image: url(./assets/bg.png);
+    height: 900px;
+    background-size: cover;
+    color: #ffff;
+    background-position: center;
+    text-align: center;
+    
+}
+
+
+.hero h1, p, .button-large{
+    position: relative;
+    top: 20vh;
+}
+.hero .button-large{
+    top: 25vh;
+}
+.hero h1{
+   font-size: 90px;
+}
+.hero p{
+   font-size: 30px;
+}
+.hero button{
+    border: none;
+    outline: none;
+    width: max-content;
+    padding: 10px 25px;
+    background:#BA0CC5;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.hero button:hover{
+    color: #000;
+    cursor: pointer;
+}
+.fa-solid{
+    background: #000;
+    color: #000;}
+    
+
+.fa-solid:hover{
+    color: #ffff;
+
+}
